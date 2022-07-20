@@ -1,0 +1,59 @@
+/* reset default style */
+/* background color for better visiblities you can ignore it */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    /* background: #000; */
+}
+.header{
+    width: 90vw;
+    height: 70vh;
+    background: #000;
+    margin: 0 auto;
+    margin-top: 5vh;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-content{
+    height: 100%;
+    width: 100%;
+    /* background: rgb(121, 91, 91); */
+    padding: 20px 20px 0 20px;
+}
+/* left side design */
+.half-width{
+    width: 50%;
+}
+.text-side{
+    color: rgb(255, 253, 253);
+    padding-left: 4vw;
+    padding-top: 2vh;
+}
+.text-side h1{
+    font-weight: 900;
+    font-size: 2.5vw;
+}
+.text-side button{
+    text-decoration: none;
+    color: #ffff;
+    background: #DD0000;
+    height: 50px;
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.fa-tv-retro{
+    color: rgb(255, 255, 255);
+}
+
+/* right side design */
+
+.image-side img{
+    width: 100%;
+}
